@@ -1,0 +1,13 @@
+<h1><%= t('title') %></h1>
+
+<h2>make_a_urlを使う場合</h2>
+
+<p>アンカータグをそのまま使えるので、Railsに依存せずに使える</p>
+
+<p><a href="<%= make_a_url './sample/' %>"><%= t('hello') %></a></p>
+
+<h2>Railsのlink_toをそのまま使う場合</h2>
+
+<p>link_toの仕様を把握する必要がある</p>
+
+<p><%= link_to 'sample', './sample/' %></p>

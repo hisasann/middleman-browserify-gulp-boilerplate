@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title><%= t('title') %></title>
+  <meta name="description" content="<%= t('description') %>">
+  <meta name="keywords" content="<%= t('keywords') %>">
+  <meta property="og:title" content="<%= t('og_title') %>">
+  <meta property="og:url" content="<%= t('url') %>">
+  <meta property="og:description" content="<%= t('og_description') %>">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="<%= t('url') %>images/ogimage.jpg">
+  <meta property="og:site_name" content="<%= t('og_sitename') %>">
+  <%= stylesheet_link_tag "all" %>
+</head>
+
+<body>
+  <%= yield %>
+  <%= javascript_include_tag  "bundle" %>
+</body>
+</html>

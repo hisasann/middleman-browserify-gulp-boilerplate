@@ -1,0 +1,57 @@
+{
+  "name": "sample",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watchify source-app/javascripts/index.js -o source/javascripts/bundle.js -v",
+    "build": "browserify source-app/javascripts/index.js > source/javascripts/bundle.js",
+    "start": "6to5-node server",
+    "test": "jest"
+  },
+  "author": "hisasann",
+  "license": "MIT",
+  "browserify": {
+    "transform": [
+      [ "6to5ify" ]
+    ]
+  },
+  "devDependencies": {
+    "coffee-script": "1.8.0",
+    "6to5-jest": "^1.0.0",
+    "6to5ify": "^3.1.2",
+    "browserify": "^5.11.0",
+    "jest-cli": "^0.2.0",
+    "reactify": "^0.15.2",
+    "watchify": "^2.1.1",
+    "debowerify": "^0.7.1",
+    "gulp": "^3.8.5",
+    "gulp-autoprefixer": "0.0.7",
+    "gulp-clean": "^0.3.0",
+    "gulp-coffee": "^2.0.1",
+    "gulp-coffeelint": "^0.3.3",
+    "gulp-compass": "^1.3.2",
+    "gulp-concat": "^2.2.0",
+    "gulp-csso": "^0.2.9",
+    "gulp-if": "^1.2.1",
+    "gulp-imagemin": "0.6.2",
+    "gulp-livereload": "^2.1.0",
+    "gulp-load-plugins": "^0.5.1",
+    "gulp-plumber": "^0.6.3",
+    "gulp-sass": "0.7.1",
+    "gulp-size": "^0.4.0",
+    "gulp-uglify": "^0.3.0",
+    "gulp-util": "^2.2.19",
+    "gulp-tap": "^0.1.3",
+    "gulp-batch": "^1.0.3",
+    "gulp.spritesmith": "^1.4.0",
+    "gulp-template": "^1.1.1",
+    "gulp-rename": "^1.2.0",
+    "colors": "^0.6.2",
+    "run-sequence": "^1.0.1",
+    "vinyl-buffer": "^0.0.0",
+    "vinyl-source-stream": "^0.1.1",
+    "minimist": "^1.1.0",
+    "require-dir": "^0.1.0"
+  }
+}
