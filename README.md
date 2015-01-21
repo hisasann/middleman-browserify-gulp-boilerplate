@@ -1,8 +1,8 @@
-﻿:lipstick: middleman-browserify-gulp-boilerplate :lipstick:
+﻿:lipstick: middleman-browserify-gulp-boilerplate
 ===============
 
 <p align="center">
-  <img height="400" width="400" src="https://middlemanapp.com/jp/images/mm-blue-w-text.svg">
+  <img src="https://raw.githubusercontent.com/hisasann/middleman-browserify-gulp-boilerplate/master/middleman.png">
 </p>
 
 ## Overview
