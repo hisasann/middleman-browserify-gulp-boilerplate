@@ -25,7 +25,7 @@ In addition, we are disposed so as not to hit the ``ES6 (6to5ify), browserify, g
 
 clone the repository.
 
-    git clone TODO
+    git clone git@github.com:hisasann/middleman-browserify-gulp-boilerplate.git
 
 set up the necessary files.
 
