@@ -47,6 +47,14 @@ if you want to release build
   
     bundle exe middleman build
 
+Please enter the following URL to launch the browser.
+
+    http://localhost:4567/jp/test/
+    
+or
+
+    http://localhost:4567/en/test/
+    
 ## Directory Structure
 
     ├── build
